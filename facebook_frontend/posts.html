@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facebook Backend - Posts Feed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Posts Feed</h1>
+    <nav>
+      <button id="logoutBtn">Logout</button>
+    </nav>
+  </header>
+  <main>
+    <div id="postsList"></div>
+    <section id="newPostSection">
+      <h2>Create a New Post</h2>
+      <form id="createPostForm">
+        <textarea id="postContent" placeholder="What's on your mind?" required></textarea>
+        <button type="submit">Post</button>
+      </form>
+      <div id="postMessage"></div>
+    </section>
+  </main>
+  <script src="posts.js"></script>
+</body>
+</html>
+
